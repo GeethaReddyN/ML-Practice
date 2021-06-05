@@ -1,0 +1,14 @@
+docker image ls
+docker image ubuntu 
+docker pull ubuntu
+docker image ls
+docker container run ubuntu
+docker container ps -a 
+docker container start 01cc78925268
+>docker container stop ubuntu
+docker image rm -f ubuntu
+docker container run --publish 80:80 nginx
+docker container run --publish 80:80 --detach nginx
+docker container start -ai ~~containerid
+jupyter notebook --ip 0.0.0.0 --no-browser --allow-root
+
